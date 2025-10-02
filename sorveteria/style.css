@@ -1,0 +1,216 @@
+@font-face {
+    font-family: Nunito;
+    src: url('fonts/Nunito-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Nunito;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 1em;
+    background-color: #9F3081;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+.logo span {
+    color: #f4f4f4;
+    font-size: small;
+    position: relative;
+    top: -20px;
+}
+
+header a {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+header a:hover {
+    color: #F29004;
+    transition: 0.5s;
+}
+
+header .btn {
+    background-color: #f4f4f4;
+    color: #9F3081;
+    width: 100px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    color: #dc2aad;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.destaque .grid-div {
+    display: flex;
+}
+
+.foto {
+    width: 400px;
+}
+
+.foto-destaque {
+    width: 100%;
+}
+
+.texto {
+    color: #1E9EC1;
+    font-size: 1.5em;
+    margin-top: 6%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.texto-destaque {
+    color: #9F3081;
+    font-size: 2em;
+}
+
+.inicio .quer {
+    font-size: 4em;
+    color: #60d19c;
+}
+
+.inicio .temos {
+    font-size: 4em;
+    color: #60c0d1;
+    /* color: #292121; */
+}
+
+.inicio .melhores {
+    font-size: 4em;
+    color: #d3d3d3;
+}
+
+.vantagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: #f4f4f4;
+    font-weight: 400;
+    width: 60%;
+    height: 10em;
+    padding: 10px;
+    background-color: #E62866;
+    border-radius: 19px;
+}
+
+.vantagens h2 {
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+.icon {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.siga-nos h1 {
+    margin: 5% 0;
+    color: #E62866;
+    font-size: 3em;
+}
+
+.grid {
+    width: 550px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15%;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+
+.grid-image {
+    width: 270px;
+    height: 160px;
+    transition: 0.5s;
+}
+
+.grid-image:hover {
+    transition: 0.5s;
+    filter: brightness(70%);
+}
+
+footer {
+    background-color: #E62866;
+    color: #f4f4f4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer a {
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+footer .logo:hover {
+    text-decoration: none;
+}
+
+.social-icon {
+    width: 40px;
+    transition: 0.5s;
+}
+
+.social-icon:hover {
+    filter: brightness(60%);
+    transition: 0.5s;
+}
+
+.dev {
+    height: 3vh;
+    font-size: 15px;
+    background-color: #c4c4c4;
+    color: #161616;
+}
